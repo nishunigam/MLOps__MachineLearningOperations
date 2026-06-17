@@ -76,6 +76,7 @@ print(car.description()) # Call instance method
 ```
 **Output**
 > 4
+
 > The BMW i3
 
 ## Example
@@ -96,6 +97,7 @@ dog.bark() # Dog specific method
 
 **Output**
 > Chomp
+
 > Bark!
 
 
