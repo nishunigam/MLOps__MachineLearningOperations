@@ -98,6 +98,6 @@ dog.bark() # Dog specific method
 **Output**
 > Chomp
 
-Bark!
+> Bark!
 
 
