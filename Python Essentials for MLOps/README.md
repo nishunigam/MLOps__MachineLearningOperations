@@ -46,7 +46,13 @@ Very similar to Jupyter, but run from terminal:
 
 
 
+## LAMBDA FUNCTION:
 
+```
+func = lambda x: x**2
+func(4)
+```
+16
 
 ## Key Points
 
@@ -101,3 +107,10 @@ dog.bark() # Dog specific method
 > Bark!
 
 
+# Reflection Questions
+
+1.	When would you want to use a tuple over a list?
+2.	What real-world examples can be modeled with dictionaries?
+3.	How could sets help improve the efficiency of a program?
+4.	What issues can arise from nested data structures?
+5.	Why is proper data structure selection important when coding?
