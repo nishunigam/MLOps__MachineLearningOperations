@@ -38,12 +38,48 @@ Very similar to Jupyter, but run from terminal:
 *	Can connect to a [local runtime](https://research.google.com/colaboratory/local-runtimes.html)
 *	Can create forms in [Colab](https://colab.research.google.com/notebooks/forms.ipynb)
 
+```
+from google.colab import drive
+drive.mount('/content/gdrive', force_remount=True)
+import os;os.listdir("/content/gdrive/My Drive/awsml")
+```
 
 
 
 
+## Making Classes Behave Like Functions
+
+```
+Creating callable functions
+class AttackFinder:
+  """Finds the attack location"""
 
 
+  def __init__(self, attack):
+    self.attack = attack
+
+  def __call__(self):
+    attacks = {"kimura": "upper_body",
+           "straight_ankle_lock":"lower_body",
+           "arm_triangle":"upper_body",
+            "keylock": "upper_body",
+            "knee_bar": "lower_body"}
+    if not self.attack in attacks:
+      return "unknown location"
+    return attacks[self.attack]
+
+my_attack = AttackFinder("kimura")
+my_attack()
+```
+
+**OUTPUT**
+> 'upper_body'
+
+
+
+## Applying Functions to Pandas DataFrames
+
+The final lesson on functions is to take this knowledge and use it on a DataFrame in Pandas. One of the more fundamental concepts in Pandas is use apply on a column vs iterating through all of the values.
 
 
 ## LAMBDA FUNCTION:
