@@ -107,30 +107,6 @@ They know that in fact, they could even put something that is very hard to find 
 
 - Must have DevOps first, then data ops, MLOps platform, and business alignment 
 
-## **5 Reflection Questions:** 
-
-1. How is MLOps different from traditional software engineering? 
-
-2. When would you choose a lightweight vs heavy MLOps system? 
-
-3. What cultural changes are needed to adopt MLOps practices? 
-
-4. How could data poisoning threats impact an organization? 
-
-5. Why is business alignment important for MLOps success? 
-
-## **5 Challenge Exercises:** 
-
-1. Diagram a lightweight MLOps workflow for a hobby project 
-
-2. Set up a basic MLOPs pipeline using open source tools 
-
-3. Interview DevOps teams on lessons for MLOps adoption 
-
-4. Research real-world examples of data poisoning issues 
-
-5. Analyze costs/benefits of ML for a business case 
-
 
 
 ## MLOps Platform: 
@@ -556,3 +532,29 @@ Regular auditing of data
 ### In a production-first mindset, roughly what fraction of the overall problem does the model itself represent? 
 
 About 5% of the problem
+
+## **5 Reflection Questions:** 
+
+1. How is MLOps different from traditional software engineering? 
+
+2. When would you choose a lightweight vs heavy MLOps system? 
+
+3. What cultural changes are needed to adopt MLOps practices? 
+
+4. How could data poisoning threats impact an organization? 
+
+5. Why is business alignment important for MLOps success? 
+
+## **5 Challenge Exercises:** 
+
+1. Diagram a lightweight MLOps workflow for a hobby project 
+
+2. Set up a basic MLOPs pipeline using open source tools 
+
+3. Interview DevOps teams on lessons for MLOps adoption 
+
+4. Research real-world examples of data poisoning issues 
+
+5. Analyze costs/benefits of ML for a business case 
+
+
