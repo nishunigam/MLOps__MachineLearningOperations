@@ -170,342 +170,359 @@ This is really the key with three of these vendors, is the concept of continuous
 
 ## Reflection Questions:
 
-### In MLOps, beyond protecting the environment, what else is sustainability primarily concerned with protecting?** 
+### In MLOps, beyond protecting the environment, what else is sustainability primarily concerned with protecting?
 
 The well-being of people
 
-### **To what does MLOps apply DevOps ideas?** 
+### To what does MLOps apply DevOps ideas?  
 
 Machine learning systems
 
-### **What does enforcing least privilege prevent users from having?** 
+### What does enforcing least privilege prevent users from having?  
 
 More access than they need
 
-### **What GitHub feature allows pre-configuration of development environments? 
+### What GitHub feature allows pre-configuration of development environments? 
 
 Dev containers
 
-### **What is recommended as a direct incentive for employees to learn? 
+### What is recommended as a direct incentive for employees to learn? 
 
 Pay people to learn
 
-### **According to the source, what type of practices form one main technical component of DevOps?** 
+### According to the source, what type of practices form one main technical component of DevOps?  
 
 Software engineering best practices
 
-### **What uncertainty does “data science on your first day” aim to address? 
+### What uncertainty does “data science on your first day” aim to address? 
 
 Not knowing what to do
 
-### **Where does the insider upload the prohibited image to initiate the attack? 
+### Where does the insider upload the prohibited image to initiate the attack? 
 
 Inside the corporate Google Drive
 
-**MLOps is modeled after automation methods from which discipline?** 
+### MLOps is modeled after automation methods from which discipline?  
 
-**devOps** 
+devOps  
+### What is the primary focus of MLOps?
 
-**What is the primary focus of MLOps** 
+Deployment and operations of ML models 
 
-**Deployment and operations of ML models** 
+### What is the primary goal of MLOps in machine learning systems?  
 
-## **What is the primary goal of MLOps in machine learning systems?** 
+Continuous improvement of ML systems 
 
-**Continuous improvement of ML systems** 
+### What is described as having no substitute in the learning process?  
 
-**What is described as having no substitute in the learning process?** 
+Hands-on practice 
 
-**Hands-on practice** 
+### What organizational tool does the source recommend for managing best practices?  
 
-## **What organizational tool does the source recommend for managing best practices?** 
+A Checklist 
 
-## **A Checklist** 
+### In DevOps, what kind of changes does the methodology favor?  
 
-## **In DevOps, what kind of changes does the methodology favor?** 
+Incremental changes 
 
-**Incremental changes** 
+### What is the primary business effect of the MLOps stack?  
 
-**What is the primary business effect of the MLOps stack?** 
+Accelerates business value 
 
-**Accelerates business value** 
+### Which existing methodology's concepts does Data Ops specifically use? 
+DevOps concepts 
 
-**Status: Front** 
+### What is the primary focus of CI/CD as described in the text?  
 
-**Front** 
+Continuous code delivery 
 
-**Which existing methodology's concepts does Data Ops specifically use? DevOps concepts** 
+### What specific type of insider threat is highlighted as often overlooked in organizations?  
 
-**What is the primary focus of CI/CD as described in the text?** 
+Insider threats via data poisoning 
 
-**Continuous code delivery** 
+### What step precedes deployment in edge-based machine learning?  
 
-**What specific type of insider threat is highlighted as often overlooked in organizations?** 
+Model transformation using an ML framework  
 
-**Insider threats via data poisoning** 
+### In the MLOps rule of 25, which component of MLOps deals with business requirements?  
 
-**What step precedes deployment in edge-based machine learning?** 
+Framing business requirements 
 
-## **Model transformation using an ML framework** 
+### In the analogy, what real-world object represents ML containers?  
 
-**In the MLOps rule of 25, which component of MLOps deals with business requirements?** 
+A shipping container 
 
-**Framing business requirements** 
+### What overarching software development methodology uses infrastructure as code and continuous integration?  
 
-**In the analogy, what real-world object represents ML containers?** 
+DevOps methodology 
 
-**A shipping container** 
+### What example task might a scientist use machine learning for, according to the text?  
 
-**What overarching software development methodology uses infrastructure as code and continuous integration?** 
+Detect endangered animals 
 
-**DevOps methodology** 
+### In terms of process behavior, how does the source describe DevOps?  
 
-**What example task might a scientist use machine learning for, according to the text?** 
+A feedback loop  
 
-**Detect endangered animals** 
+### For the corporation, what does the Google Drive outage effectively create?  
 
-**In terms of process behavior, how does the source describe DevOps?** 
+An extended denial of service 
 
-**A feedback loop** 
+### Beyond DevOps, what broader historical area does MLOps draw from?  
 
-**For the corporation, what does the Google Drive outage effectively create?** 
+History of automation 
 
-**An extended denial of service** 
+### What type of platform in the MLOps layer is used to expose trained models for use? 
+Model serving platform 
 
-**Beyond DevOps, what broader historical area does MLOps draw from?** 
+### In DevOps, what organizational barrier is targeted for removal?  
 
-**History of automation** 
+Silos between teams 
 
-**What type of platform in the MLOps layer is used to expose trained models for use? Model serving platform** 
+### What event can data drift detection be used to trigger?  
 
-**In DevOps, what organizational barrier is targeted for removal?** 
+Initiating a new model training run 
 
-## **Silos between teams** 
+### What kind of models are highlighted for use in Lesson 3?  
 
-## **What event can data drift detection be used to trigger?** 
+Pre-trained models  
 
-**Initiating a new model training run** 
+### What key benefit does a feature store provide regarding feature reuse?  
 
-**What kind of models are highlighted for use in Lesson 3?** 
+Enables reuse of ML features 
 
-**Pre-trained models** 
+### What does Kaizen emphasize in the Japanese automobile industry? 
 
-**What key benefit does a feature store provide regarding feature reuse?** 
+Continuous improvement 
 
-**Enables reuse of ML features** 
+### What does the source highlight as under-discussed in modern systems? 
 
-**What does Kaizen emphasize in the Japanese automobile industry? Continuous improvement** 
+The data management system layer 
 
-**What does the source highlight as under-discussed in modern systems? The data management system layer** 
+### What hiring advantage comes from choosing a popular cloud platform?  
 
-**What hiring advantage comes from choosing a popular cloud platform?** 
+Easier replacement of team members 
 
-**Easier replacement of team members** 
+### In MLOps, what does "going heavy" primarily refer to?  
 
-**In MLOps, what does "going heavy" primarily refer to?** 
+Using a more complex MLOps setup 
 
-**Using a more complex MLOps setup** 
+### After establishing a base level of DevOps, what should organizations examine next?  
 
-**After establishing a base level of DevOps, what should organizations examine next?** 
+Their data management platforms 
 
-**Their data management platforms** 
+### What is the ultimate goal of combining Hugging Face and pre-trained models in Lesson 3?  
 
-**What is the ultimate goal of combining Hugging Face and pre-trained models in Lesson 3?** 
+Solve a problem for a customer 
 
-## **Solve a problem for a customer** 
+### What cultural aspect is identified as a main component of DevOps?  
 
-## **What cultural aspect is identified as a main component of DevOps?** 
+Culture of continuous improvement 
 
-**Culture of continuous improvement** 
+### What is the primary security concern mentioned as machine learning data use grows?  
 
-**What is the primary security concern mentioned as machine learning data use grows?** 
+Data poisoning attacks 
 
-**Data poisoning attacks** 
+### What is the primary cultural focus of DevOps?  
 
-**What is the primary cultural focus of DevOps?** 
+Collaboration between development and operations  
 
-**Collaboration between development and operations** 
+### What type of mandate is Kaizen described as within a company in the source? 
 
-**What type of mandate is Kaizen described as within a company in the source? Cultural mandate** 
+Cultural mandate 
 
-**What must be established before implementing data ops in an organization? A solid DevOps foundation** 
+### What must be established before implementing data ops in an organization? 
 
-**Where is the model source stored in this lightweight MLOps workflow?** 
+A solid DevOps foundation 
 
-**Directly in GitHub** 
+### Where is the model source stored in this lightweight MLOps workflow?  
 
-**What is a key mitigation for prohibited images entering training data?** 
+Directly in GitHub 
 
-**Regular data audits** 
+### What is a key mitigation for prohibited images entering training data?  
 
-**In the rideshare example, what environmental effect indicates bad governance? Increased city pollution** 
+Regular data audits 
 
-**From which recent software practice does MLOps inherit many concepts?** 
+### In the rideshare example, what environmental effect indicates bad governance? 
 
-## **DevOps** 
+Increased city pollution 
 
-**In DevOps, which practice automates releasing software updates?** 
+### From which recent software practice does MLOps inherit many concepts?  
 
-**Continuous delivery** 
+DevOps 
 
-**What is the primary contribution of MLOps to machine learning workflows?** 
+### In DevOps, which practice automates releasing software updates?  
 
-**Automation of ML workflows** 
+Continuous delivery 
 
-**In MLOps, what is the ethical concern about the impact of recommendation engine results on users?** 
+### What is the primary contribution of MLOps to machine learning workflows?  
 
-**Potential to radicalize people** 
+Automation of ML workflows 
 
-**What is a proactive measure against data poisoning in training pipelines?** 
+### In MLOps, what is the ethical concern about the impact of recommendation engine results on users?  
 
-**Routine dataset auditing** 
+Potential to radicalize people 
 
-**What capability does the shapely extension provide in explainable AI?** 
+### What is a proactive measure against data poisoning in training pipelines?  
 
-**Shows feature contributions to predictions** 
+Routine dataset auditing 
 
-**What interpersonal practice is central to DevOps?** 
+### What capability does the shapely extension provide in explainable AI?  
 
-**Collaboration with teammates** 
+Shows feature contributions to predictions 
 
-**What misconception about data poisoning does the source correct?** 
+### What interpersonal practice is central to DevOps?  
 
-**That it is only theoretical** 
+Collaboration with teammates  
 
-**What is the primary purpose of infrastructure as code in DevOps?** 
+### What misconception about data poisoning does the source correct?  
 
-**Automatically provision environments** 
+That it is only theoretical 
 
-**What is a key security concern highlighted in MLOps?** 
+### What is the primary purpose of infrastructure as code in DevOps?  
 
-## **Data poisoning threats** 
+Automatically provision environments 
 
-## **What does a feature store contain for machine learning workflows?** 
+### What is a key security concern highlighted in MLOps?  
 
-**Precomputed, reusable machine learning features** 
+Data poisoning threats 
 
-**Who is identified as capable of performing data poisoning in the described scenario?** 
+### What does a feature store contain for machine learning workflows?  
 
-**An insider within the organization** 
+Precomputed, reusable machine learning features 
 
-**What historical capability does experiment tracking provide?** 
+### Who is identified as capable of performing data poisoning in the described scenario?  
 
-**Ability to go back in time** 
+An insider within the organization 
 
-**which concept is explicitly contrasted with heuristics?** 
+### What historical capability does experiment tracking provide?  
 
-**Optimization** 
+Ability to go back in time 
 
-**According to the source, what plays a role in achieving automation alongside CI/CD?** 
+### which concept is explicitly contrasted with heuristics?  
 
-**Infrastructure as code** 
+Optimization 
 
-**What key metric does experiment tracking allow you to compare between systems?** 
+### According to the source, what plays a role in achieving automation alongside CI/CD?  
 
-**The accuracy of different systems** 
+Infrastructure as code 
 
-**What is the main goal of DataOps for data systems over time?** 
+### What key metric does experiment tracking allow you to compare between systems?  
 
-**Constant, incremental improvement** 
+The accuracy of different systems 
 
-**In the MLOps rule of 25, which component of MLOps is about improving models?** 
+### What is the main goal of DataOps for data systems over time?  
 
-## **Modeling** 
+Constant, incremental improvement 
 
-## **Which tool is given as an example of AI pair programming?** 
+### In the MLOps rule of 25, which component of MLOps is about improving models?  
 
-**GitHub Copilot** 
+Modeling 
 
-**What is identified as the end result component of DevOps in the source?** 
+### Which tool is given as an example of AI pair programming?  
 
-**Automation** 
+GitHub Copilot 
 
-**Under DataOps, what should happen to your data system every day?** 
+### What is identified as the end result component of DevOps in the source?  
 
-**It should get a little better** 
+Automation  
 
-**What market position does Amazon hold in cloud computing in the example?** 
+### Under DataOps, what should happen to your data system every day?  
 
-**Market leader in cloud computing** 
+It should get a little better 
 
-**In NFSOps, what is mounted to enable shared access?** 
+### What market position does Amazon hold in cloud computing in the example?  
 
-**A network file system** 
+Market leader in cloud computing 
 
-**In the MLOps platform layer, what does data drift analysis focus on regarding the data?** 
+### In NFSOps, what is mounted to enable shared access?  
 
-**How underlying data has changed** 
+A network file system 
 
-**What does business ROI evaluate for a machine learning model?** 
+### In the MLOps platform layer, what does data drift analysis focus on regarding the data?  
 
-**Its value to the organization** 
+How underlying data has changed 
 
-**What is the typical number of levels in an MLOps maturity model?** 
+### What does business ROI evaluate for a machine learning model?  
 
-**4-5** 
+Its value to the organization 
 
-**In DevOps, what type of change is avoided in favor of incremental updates?** 
+### What is the typical number of levels in an MLOps maturity model?  
 
-**All-or-nothing changes** 
+4-5 
 
-**Besides data quality, what organizational capability should DataOps improve? Effective communication across the organization** 
+### In DevOps, what type of change is avoided in favor of incremental updates?  
 
-**In MLOps, what is the main risk of not framing a problem correctly?** 
+All-or-nothing changes 
 
-**Solving the wrong organizational problem** 
+### Besides data quality, what organizational capability should DataOps improve? 
 
-**What is the primary purpose of a feature store?** 
+Effective communication across the organization 
 
-**to store curated machine learning features for reuse in model training and serving** 
+### In MLOps, what is the main risk of not framing a problem correctly?  
 
-**Which type of machine learning is used to discover new patterns in inventory data? Unsupervised machine learning** 
+Solving the wrong organizational problem 
 
-**What characterizes the lowest level in an MLOps maturity model?** 
+### What is the primary purpose of a feature store?  
 
-**Manual, siloed, unreliable practices** 
+to store curated machine learning features for reuse in model training and serving 
 
-**In the MLOps rule of 25, what aspect of MLOps focuses on automating data?** 
+### Which type of machine learning is used to discover new patterns in inventory data? 
 
-**Data operations** 
+Unsupervised machine learning 
 
-**What does the source suggest is transferable from DevOps and DataOps to MLOps?** 
+### What characterizes the lowest level in an MLOps maturity model?  
 
-**The operational mindset** 
+Manual, siloed, unreliable practices 
 
-**What key DevOps capability allows software to move from staging to production automatically?** 
+### In the MLOps rule of 25, what aspect of MLOps focuses on automating data?  
 
-**Continuous delivery** 
+Data operations 
 
-**In the MLOps hierarchy of needs, what follows data ops?** 
+### What does the source suggest is transferable from DevOps and DataOps to MLOps?  
 
-**An MLOps platform** 
+The operational mindset  
 
-## **What DevOps concept is described as embodying automation in the passage?** 
+### What key DevOps capability allows software to move from staging to production automatically?  
 
-**Ci/cd** 
+Continuous delivery 
 
-**What type of cloud service is Google App Engine in this workflow?** 
+### In the MLOps hierarchy of needs, what follows data ops?  
 
-**Paas** 
+An MLOps platform 
 
-**In a data-centric workflow, what tool type can be used instead of manual modeling?** 
+### What DevOps concept is described as embodying automation in the passage?  
 
-**AutoML** 
+Ci/cd 
 
-**In the MLOps hierarchy of needs, what is the final layer after the MLOps platform? Business alignment** 
+### What type of cloud service is Google App Engine in this workflow?  
 
-**Which type of data activity involving extracting insights is managed by Data Ops? Data analysis** 
+Paas 
 
-**What is Kaizen ML primarily defined as?** 
+### In a data-centric workflow, what tool type can be used instead of manual modeling?  
 
-**Automated process improvement** 
+AutoML 
 
-**According to the source, what idea is at the root of DevOps?** 
+### In the MLOps hierarchy of needs, what is the final layer after the MLOps platform?
 
-**The idea of automation** 
+Business alignment  
 
-**What practice helps mitigate planted or malicious training data in a system? Regular auditing of data** 
+### Which type of data activity involving extracting insights is managed by Data Ops? 
 
-**In a production-first mindset, roughly what fraction of the overall problem does the model itself represent?** 
+Data analysis 
 
-**About 5% of the problem** 
+### What is Kaizen ML primarily defined as?  
+
+Automated process improvement  
+
+### According to the source, what idea is at the root of DevOps?  
+
+The idea of automation 
+
+### What practice helps mitigate planted or malicious training data in a system? 
+
+Regular auditing of data 
+
+### In a production-first mindset, roughly what fraction of the overall problem does the model itself represent? 
+
+About 5% of the problem
