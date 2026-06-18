@@ -23,25 +23,49 @@ There's tons of environments, GitHub code spaces is one of my favorite, but the 
 
 elastic file system. And in fact, the build system in this case is Jenkins and the deploy process all have access to the same mount point. And because the disc IO is distributed across the system, you essentially have real time access to both deployment and the data that the machine learning system uses. So I think this NFSOps style deployment is really going to make a comeback. 
 
+<img width="940" height="584" alt="image" src="https://github.com/user-attachments/assets/1be1dc11-fa2d-4925-968c-d5324597820b" />
+
+
 ow Kubernetes is not going anywhere as well. It's definitely a very complex system, but there are a lot of tools here that fit into the Kubernetes and cube flow workflow, all cloud providers supported. 
 
+<img width="940" height="478" alt="image" src="https://github.com/user-attachments/assets/d6c57622-0b81-4ae7-9bca-2caa43733bc6" />
+
+
 So the idea here is that you use an ML framework, you do a transformation, and you can deploy to many different locations including a physical device, like a hardware USB device or a mobile phone that has an inference chip that allows you to do predictions on the mobile phone or even an operating system. So edge ML is something that we're going to see more and more of 
+
+<img width="940" height="542" alt="image" src="https://github.com/user-attachments/assets/a2656ed9-0222-4e00-91be-884d5efc172f" />
+
 
 Another thing that is coming up is this concept of sustainability. We see there is a climate change problem. We want to be careful about how we do things. 
 
 We want to also not only take care of the environment, but we want to care about people, right? Are we delivering recommendation engine results that radicalize people or really destroy democracy? These are important things to consider, and then governance, right? Are we building things in a way that we're able to make a profit, but we're doing it in a way that doesn't dump negative externalities onto people that can't afford them, right? Like for example building a right share system that destroys the traffic in a city and pollutes it and destroys jobs and then you walk away, right? That would be a good example of maybe some bad governance. 
 
+<img width="940" height="660" alt="image" src="https://github.com/user-attachments/assets/c94c443c-74eb-4f0f-8ed7-30e3b1b6ae44" />
+
+
 It depends on what it is you're trying to do. 
 
+<img width="940" height="478" alt="image" src="https://github.com/user-attachments/assets/bac6616c-1879-4d7e-9e09-db5887d29979" />
+
+
 Model portability as well is a huge trend we're seeing where you can take a model that was built in many different frameworks. Keras, TensorFlow, pytorch, scikit-learn, XGBoost, and convert it to a universal format like ONNX. 
+
+<img width="940" height="480" alt="image" src="https://github.com/user-attachments/assets/98cc9aba-3f31-4345-95f5-cc33f0afc31d" />
+
 
 the idea here is that what we're probably going to see is that data scientists really becomes more of a bimodal type position where there will be these chief data scientists who get paid, I don't know, $1 million a year or more. And they're really making key decisions in our organization. But some of the things that the data scientists were doing that were on Kaggle may get completely automated because AutoML in fact can do many of the things that they were doing and also data automation can do many of the things they're doing. So really we're seeing potentially the ML engineer and the data 
 
 engineer really driving the cost, I think at a median level where the data scientists will be at a bimodal level. And so when we think about Kaizen ML, it's really an automated process improvement. So we're not just improving the machine learning model, we're improving every single thing about it 
 
+<img width="940" height="458" alt="image" src="https://github.com/user-attachments/assets/7fc0b872-f0fb-44f2-b0cc-a8faccc7eb64" />
+
+
 nd with a production first mindset, you don't focus just on 5% of the problem, which is the model, you focus on the whole system. So the behavior as a data scientist, the problem framing, you also automate the data engineering pipeline, get job systems that go through and collect the data and clean it. You have automated feature engineering using things like feature store. You have automated testing, you have automatic business intelligence, automated model accuracy, you have automatic scaling. So you can see that every single thing needs to be automated, if you just pick one thing because it is your favorite, that's not doing a production first mindset. And that's why I call this Kaizen ML is every single thing that's necessary to drive machine learning into production has to be automated. 
 
 And I think this is really a trend that we will see in the future. 
+
+<img width="940" height="535" alt="image" src="https://github.com/user-attachments/assets/fe566e10-91cd-42ed-b1d2-5ede08cd0219" />
+
 
 we have more of a batch or a static workflow where you would take something directly from GitHub, potentially even the model lives in GitHub, because it's a very small model. You would build it with a cloud native build system, in this case, Google Cloud Build. And then there's a pass or a platform as a service offering, in this case, Google App Engine. And you would serve out a prediction, and then this would be your AI API. So this is a very lightweight kind of hobbyist workflow. Although also it could work very well with, maybe, pretrained model workflows. 
 
@@ -50,6 +74,9 @@ In a more sophisticated MLOps workflow, you could call this a heavy workflow. An
 You have all the models actually registered, you have model monitoring, to make sure that it's performing correctly, you have experiment tracking, so you can see the accuracy of the different systems that have been created and actually go back in time and recreate things, you have explainable AI, and these systems like the shapely extension can show which features are driving which model. And then finally, you have the prediction component. So, all of these are features that really depend on what it is you're doing. Are you more of a data-centric or more of a model-centric? And then finally, you have Pipeline Orchestration, the entire process of building this system. And you have Notebooks and Containers. These are all components that often go together in an MLOps system. 
 
 And then underneath the hood, this is also not necessarily talked about enough, but in any modern system, most likely you're going to have a data management system on the Google Cloud. BigQuery is one of the systems that people often use to query the data. In fact, you can even do machine learning directly inside of this. So this is really a high level overview of some of the the main things to consider when building an MLOps system. Do you want to go light, do you want to go heavy? Do you want to pick data centric, or do you want to pick model centric? 
+
+<img width="940" height="434" alt="image" src="https://github.com/user-attachments/assets/d61e280b-5526-4fd6-a86c-4a58f819d688" />
+
 
 Let's dive into the concept of MLOps hierarchy of needs. Really, it is like a pyramid and that at the bottom is DevOps. If you don't have DevOps, there's no possibility of an organization doing MLOps. And some of the key components of DevOps include infrastructure as code, right? Are you able to automatically provision environments and check that into your build system? Can you do continuous delivery of your software stack? So a micro service is being delivered in the staging environment and then automatically being propagated to production. 
 
@@ -69,7 +96,10 @@ Drive, which would then make sure that the corporation is offline, and it take s
 
 They know that in fact, they could even put something that is very hard to find out that it's a prohibited image. Maybe it's a World War II image or something like that. Now a second one that is an attack vector is that potentially an insider could secretly seed training data with images that are known to trigger some forbidden attack, and in this case, they could plant a file on a customer system, and that system would train the data, and eventually the multiclass classification model would see something that wasn't really there. They could plant essentially a false flag of forbidden content, and that particular organization could constantly get a denial of service attack because an insider was explicitly trying to take out another organization. In both cases here, the training data that's planted or in the case of the prohibited image, one of the ways that this could be mitigated is through regular auditing, reducing the principle of least privilege approach, so making sure that people don't have more access than they need to. These are not theoretical attacks. It's very important to consider data poisoning as a real threat to many organizations as data in ML gets more popular. 
 
-## **Top 3 Key Points:** 
+<img width="940" height="507" alt="image" src="https://github.com/user-attachments/assets/7d9bf534-7572-41bf-939b-b3e6c5ebeb76" />
+
+
+## Key Points:
 
 - MLOps inherits from DevOps and brings automation to ML 
 
