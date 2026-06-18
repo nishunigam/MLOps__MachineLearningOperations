@@ -1,6 +1,6 @@
-## **DevOps, DataOps, MLOps** 
+# **DevOps, DataOps, MLOps** 
 
-Key Terms 
+## Key Terms 
 
 - **MLOps** - Combination of DevOps-style automation methods and ML best practices focused on deployment and operations of ML models into production systems. 
 
@@ -13,6 +13,11 @@ Key Terms
 - **Data Ops** - Specific focus on use of DevOps concepts and automation principles to manage data workloads like aggregation, transformation, storage, analysis, etc. 
 
 - **Feature Store** - Central repository to manage, store, and serve ML features for model building and retraining. Optimizes data pipelines and reuse. 
+
+<img width="940" height="742" alt="image" src="https://github.com/user-attachments/assets/f829ea0c-b5cf-4ef1-b02f-6188dabf400d" />
+
+<img width="940" height="518" alt="image" src="https://github.com/user-attachments/assets/c8f87945-51c0-4b2a-b659-2a0275db9987" />
+
 
 There's tons of environments, GitHub code spaces is one of my favorite, but the idea here is that you mount a network file system. In this case, we have Amazon EFS or 
 
@@ -96,49 +101,106 @@ They know that in fact, they could even put something that is very hard to find 
 
 5. Analyze costs/benefits of ML for a business case 
 
-Status: Front 
 
-## **Front** 
 
-## **In MLOps, beyond protecting the environment, what else is sustainability primarily concerned with protecting?** 
+## MLOps Platform: 
 
-Status: Back 
+A specialized software solution and workflow for operationalizing machine learning models. MLOps platforms have capabilities like data labeling, model monitoring, feature stores, and optimized model serving. 
 
-## **Back** 
+## Continuous Integration (CI): 
 
-## **The well-being of people** 
+An automated software development practice where developers frequently merge code changes into a shared repository. Changes are then automatically built and tested to catch issues early. 
 
-## **To what does MLOps apply DevOps ideas?** 
+## Continuous Delivery:
 
-Status: Back 
+A software engineering approach where teams produce software in short cycles, ensuring software can be reliably released at any time. It depends on automation like infrastructure as code to replicate test/prod environments. 
 
-## **Back** 
+## Infrastructure as Code:
 
-## **Machine learning systems** 
+Managing and provisioning infrastructure through code instead of manual processes. This allows environment configuration, deployment, and management to be consistent and repeatable across development stages. 
 
-**Status: Front** 
+## Feature Store:
 
-## **Front** 
+A centralized repository that stores curated features for machine learning model training. This helps manage data for model creation, storage, and discovery while preventing drift. 
 
-**What does enforcing least privilege prevent users from having?** 
+## Key components in MLops:
 
-**More access than they need** 
+<img width="940" height="480" alt="image" src="https://github.com/user-attachments/assets/146e3db7-c9b6-4b4d-b993-9ae53dcf722c" />
 
-**What GitHub feature allows pre-configuration of development environments? Dev containers** 
+> ASCIS that allow you to do things like maybe run TensorFlow inference on a TPU.
 
-## **Status: Front** 
+There's data ops. You can look at things like Databricks or Snowflakes, MLOps as well. There's lots of MLOps platforms, specialized databases, maybe graph databases or time series databases, monitoring and observability. Things like Datadog or New Relic 
 
-## **Front** 
+Really, when someone is thinking of MLOps, they need to also be aware of the entire ecosystem behind MLOps and choose what are the things that are more commodity that you want to actually use and what are the specialized services where you want to pay a vendor a premium because they give you a premium ROI. 
 
-**What is recommended as a direct incentive for employees to learn? Pay people to learn** 
+## **Mlops maturity level:** 
 
-**According to the source, what type of practices form one main technical component of DevOps?** 
+All major vendors in the MLOps space have the concept of an MLOps maturity model. Really what it means is there are several different phases of going from a crude working where you can barely get things into production and things are error-prone and manual all the way to a very sophisticated system that has really end-to-end automation and uses the next-generation features. 
 
-**Software engineering best practices** 
+### AWS: 
 
-**What uncertainty does “data science on your first day” aim to address? Not knowing what to do** 
+<img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/ef8360b1-3b0e-4370-8116-a51c1b7b7b61" />
 
-**Where does the insider upload the prohibited image to initiate the attack? Inside the corporate Google Drive** 
+
+make sure that there's maybe a platform that you're using that can actually deploy the solution. 
+
+you're able to templatize and productionize a lot of different ML solutions, not just one, but actually have a scalable system that you can repeat over and over again 
+
+### Azure:
+
+<img width="940" height="530" alt="image" src="https://github.com/user-attachments/assets/302b989a-4fea-4aba-bff5-e96940ccd5d2" />
+
+
+### Google: 
+
+MLOps level 0 is a manual process. 
+
+There's many teams that have data scientists and ML researchers. 
+
+You can see here that there's a separation though between machine-learning and Ops. Everything is entirely manual. 
+
+If we go to the next level, which is a pipeline automation level, the goal here is that you continuously train the model because things are automated. You have some level of automation because potentially there's a data drift detected, and you have all of your features at a feature store, and you're able to automatically train the model when it's appropriate. 
+
+Finally, we have the CI/CD pipeline automation. 
+
+Finally, the last phase here is not only do you have the model training automatically, but your continuous integration, your continuous delivery system is able to fully deploy the system. It's packaged up correctly. you've got 100 percent end-to-end automation. 
+
+This is really the key with three of these vendors, is the concept of continuously deploying systems through automation and having enough integration. You have a production first mindset. 
+
+
+## Reflection Questions:
+
+### **In MLOps, beyond protecting the environment, what else is sustainability primarily concerned with protecting?** 
+
+The well-being of people
+
+### **To what does MLOps apply DevOps ideas?** 
+
+Machine learning systems
+
+### **What does enforcing least privilege prevent users from having?** 
+
+More access than they need
+
+### **What GitHub feature allows pre-configuration of development environments? 
+
+Dev containers
+
+### **What is recommended as a direct incentive for employees to learn? 
+
+Pay people to learn
+
+### **According to the source, what type of practices form one main technical component of DevOps?** 
+
+Software engineering best practices
+
+### **What uncertainty does “data science on your first day” aim to address? 
+
+Not knowing what to do
+
+### **Where does the insider upload the prohibited image to initiate the attack? 
+
+Inside the corporate Google Drive
 
 **MLOps is modeled after automation methods from which discipline?** 
 
@@ -447,50 +509,3 @@ Status: Back
 **In a production-first mindset, roughly what fraction of the overall problem does the model itself represent?** 
 
 **About 5% of the problem** 
-
-MLOps Platform: A specialized software solution and workflow for operationalizing machine learning models. MLOps platforms have capabilities like data labeling, model monitoring, feature stores, and optimized model serving. 
-
-Continuous Integration (CI): An automated software development practice where developers frequently merge code changes into a shared repository. Changes are then automatically built and tested to catch issues early. 
-
-Continuous Delivery: A software engineering approach where teams produce software in short cycles, ensuring software can be reliably released at any time. It depends on automation like infrastructure as code to replicate test/prod environments. 
-
-Infrastructure as Code: Managing and provisioning infrastructure through code instead of manual processes. This allows environment configuration, deployment, and management to be consistent and repeatable across development stages. 
-
-Feature Store: A centralized repository that stores curated features for machine learning model training. This helps manage data for model creation, storage, and discovery while preventing drift. 
-
-Key components in MLops: 
-
-**ASCIS that allow you to do things like maybe run TensorFlow inference on a TPU.** 
-
-There's data ops. You can look at things like Databricks or Snowflakes, MLOps as well. There's lots of MLOps platforms, specialized databases, maybe graph databases or time series databases, monitoring and observability. Things like Datadog or New Relic 
-
-Really, when someone is thinking of MLOps, they need to also be aware of the entire ecosystem behind MLOps and choose what are the things that are more commodity that you want to actually use and what are the specialized services where you want to pay a vendor a premium because they give you a premium ROI. 
-
-## **Mlops maturity level:** 
-
-All major vendors in the MLOps space have the concept of an MLOps maturity model. Really what it means is there are several different phases of going from a crude working where you can barely get things into production and things are error-prone and manual all the way to a very sophisticated system that has really end-to-end automation and uses the next-generation features. 
-
-## AWS: 
-
-make sure that there's maybe a platform that you're using that can actually deploy the solution. 
-
-you're able to templatize and productionize a lot of different ML solutions, not just one, but actually have a scalable system that you can repeat over and over again 
-
-Azure: 
-
-Google: 
-
-MLOps level 0 is a manual process. 
-
-There's many teams that have data scientists and ML researchers. 
-
-You can see here that there's a separation though between machine-learning and Ops. Everything is entirely manual. 
-
-If we go to the next level, which is a pipeline automation level, the goal here is that you continuously train the model because things are automated. You have some level of automation because potentially there's a data drift detected, and you have all of your features at a feature store, and you're able to automatically train the model when it's appropriate. 
-
-Finally, we have the CI/CD pipeline automation. 
-
-Finally, the last phase here is not only do you have the model training automatically, but your continuous integration, your continuous delivery system is able to fully deploy the system. It's packaged up correctly. you've got 100 percent end-to-end automation. 
-
-This is really the key with three of these vendors, is the concept of continuously deploying systems through automation and having enough integration. You have a production first mindset. 
-
