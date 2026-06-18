@@ -170,7 +170,7 @@ This is really the key with three of these vendors, is the concept of continuous
 
 ## Reflection Questions:
 
-### **In MLOps, beyond protecting the environment, what else is sustainability primarily concerned with protecting?** 
+### In MLOps, beyond protecting the environment, what else is sustainability primarily concerned with protecting?** 
 
 The well-being of people
 
